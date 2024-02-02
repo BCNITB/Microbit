@@ -12,7 +12,7 @@ while True:
                      '00000'
                     ))
 
-        music.play('a1')
+        music.play('a')
         
     if button_b.is_pressed():
         display.show(Image('00000:'
@@ -22,6 +22,6 @@ while True:
                      '00000'
                     ))
         
-        music.play('a3')
+        music.play('b')
     sleep(1000)
     display.clear()
